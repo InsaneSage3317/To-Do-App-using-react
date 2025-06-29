@@ -6,9 +6,3 @@ export default defineConfig({
   plugins: [react()],
 })
 
-export default {
-  build: {
-    rollupOptions: {
-      external: ['prop-types']
-    }
-  }
